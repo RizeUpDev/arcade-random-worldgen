@@ -1,23 +1,26 @@
 {
     "name": "arcade-random-worldgen",
-    "description": "",
+    "version": "1.0.0",
+    "description": "Random world generation",
+    "license": "MIT",
     "dependencies": {
         "device": "*"
     },
     "files": [
-        "main.blocks",
         "main.ts",
-        "README.md",
-        "assets.json"
+        "generators.ts",
+        "README.md"
     ],
     "testFiles": [
         "test.ts"
     ],
+    "public": true,
     "targetVersions": {
         "target": "4.0.12",
         "targetId": "arcade"
     },
     "supportedTargets": [
         "arcade"
-    ]
+    ],
+    "preferredEditor": "tsprj"
 }
